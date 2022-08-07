@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+body .context {
+  position: absolute;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+  visibility: hidden;
+}
+
+body .context .open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5px;
+  padding: 7px 0;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+body .context .open-with {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .context .share {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .context .change-color {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .context .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+  border-top: 1px solid #cbcbcb;
+}
+
+body .context .remove {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+  padding: 7px 0;
+  border-top: 1px solid #cbcbcb;
+}
+
+body .context .menu {
+  padding: 10px 0;
+}
+
+body .context .item {
+  list-style: none;
+  cursor: pointer;
+  font-weight: lighter;
+  height: 27px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5px 0 10px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+body .context .item:hover {
+  background-color: #eae9e9;
+}
+
+body .context .item span {
+  font-size: 19px;
+  margin-left: 8px;
+}
+
+body .context .item i {
+  color: #8e8e8e;
+}
+/*# sourceMappingURL=style.css.map */
